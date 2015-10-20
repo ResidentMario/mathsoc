@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel= "stylesheet" type= "text/css" href= "static/mathsoc.css">
+    <title>{% block title %} Baruch Mathematics Society {% endblock %}</title>
+</head>
+
+<body>
+	<div id="frame">
+		<div id="navbar">
+		    <image src="/static/Mathematics Society Logo.png" style="width:200px; height:200px"/>
+			<!--<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Upside_down_Wikipedia_W.jpg" style="width:200px; height:200px;">-->
+
+			{% block navbar %}
+			<p><a href="../">About</a>
+
+			<p><a href="../Calendar">Calendar</a>
+
+			<p><a href="../Board">Board</a>
+
+			<p><a href="../Contact">Contact</a>
+			{% endblock %}
+
+			<p><a href="https://www.facebook.com/groups/710998905648251/">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" title="Join us on Facebook!" style="width:30px;height:30px;">
+			</a>
+		</div>
+		<div id="content">
+			{% block content %}
+			<h2>Content Header</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae ultricies tellus. Nulla finibus pellentesque mi, suscipit tristique sem congue eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc sem leo, porta egestas dignissim ac, consequat id leo. Aliquam eu tellus vel orci euismod fermentum id sed nisi. Vivamus ultrices lacus orci, ut condimentum dolor volutpat viverra. Aliquam ultrices leo a ligula pellentesque, ac pulvinar erat commodo. Nunc aliquam lorem molestie lacus congue, eget bibendum nunc lobortis. Curabitur tempor iaculis libero non lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tellus lorem, dignissim eget velit ac, euismod luctus ligula. Duis ornare ex a ex facilisis pharetra. Aliquam in est consequat, condimentum felis a, elementum magna.
+
+
+			<p>Donec viverra turpis neque, ac tincidunt metus aliquet eget. Vestibulum sed eleifend massa. Suspendisse ultricies justo vitae mi placerat sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tincidunt eleifend nibh vitae tempus. Nulla eros mauris, scelerisque lobortis accumsan sit amet, eleifend vel enim. Praesent et egestas justo. Aliquam elementum vitae diam accumsan efficitur. Nam id luctus ipsum, vel ultrices magna. Suspendisse efficitur eu magna sit amet pellentesque. Proin ipsum tortor, vulputate et consectetur eu, luctus sit amet nisi. Aenean ut sapien nunc. Nulla gravida quam sed sapien pretium, et rutrum lorem varius. Aliquam ex turpis, vehicula eu ultrices ac, vestibulum vel nunc. Morbi vitae elit a leo mollis luctus sit amet sit amet augue.
+
+
+			<p>Mauris mollis, urna sit amet interdum convallis, mauris tellus volutpat nibh, quis molestie mi nisl nec enim. Nulla semper vulputate neque quis iaculis. Quisque lobortis sem est, eget sagittis lacus vehicula in. Nam et rutrum metus. Pellentesque aliquam nisl at quam condimentum condimentum. Duis iaculis nisi non elit tincidunt iaculis. Quisque tristique neque vitae nisi consectetur finibus. Nunc viverra libero ac eros venenatis viverra. Mauris ultricies suscipit risus, id convallis arcu consectetur vel.
+
+
+			<p>Aliquam dignissim elementum sapien non iaculis. Praesent at commodo ex. Etiam sed consectetur felis, et fringilla urna. Etiam dictum tortor mi, a tristique mi iaculis in. Cras sit amet velit eget ex ornare gravida. Nam tincidunt, dolor in volutpat lobortis, orci lacus pellentesque enim, vel laoreet orci magna vitae felis. Proin molestie bibendum mauris ac ultrices.
+
+
+			<p>Pellentesque id sem non lectus fringilla finibus. Morbi eleifend dignissim leo vel placerat. Nullam facilisis blandit magna sed commodo. Praesent auctor volutpat nulla, in sagittis lorem rhoncus non. Nullam rutrum mauris tempor vehicula volutpat. Duis nec feugiat nibh, ut auctor diam. Cras auctor et lorem nec aliquam. Nulla at quam a sapien mattis malesuada. Quisque aliquam neque ac purus bibendum, at congue nisi molestie.
+
+
+			{% endblock %}
+		</div>
+	</div>
+	<br clear="all"/>
+	<div id="footer">
+		<div style="float:right">{% block footer %} © Mathematics Society 2015 {% endblock %}</div>
+	</div>
+</body>
+</html>

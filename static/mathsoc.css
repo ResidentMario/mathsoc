@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+#frame {
+    width:940px;
+    margin:auto;
+    background:transparent;
+}
+#navbar {
+    width:250px;
+    float:left;
+    font-size:18px;
+    font-family:Garamond, Georgia, serif;
+    line-height:1em;
+    font-weight:bold;
+    text-align:right;
+}
+#content {
+    width:650px;
+    float:right;
+    font-size:14px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height:1.5em;
+    color: #252525;
+}
+#footer {
+    width:940px;
+    margin:auto;
+    font-size:12px;
+    font-family:Garamond;
+    color:#888888;
+}
+h2 {
+    font-family:Garamond, Georgia, serif;
+    font-size:36px;
+    font-weight:normal;
+    color: #3E4349;
+}
+p {
+    margin-bottom:1.5em;
+}
+/* unvisited link */
+a:link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* visited link */
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+/* selected link */
+a:active {
+    color: #BBB;
+    text-decoration: none;
+}

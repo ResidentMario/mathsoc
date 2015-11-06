@@ -1,6 +1,10 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+#@app.route("/presentation")
+#def stuff():
+#    return render_template('an_exercise_in_probability.html')
+
 @app.route("/")
 def main_page():
     return render_template('about.html')
